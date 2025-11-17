@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+
     "target": "ES2017",
     "lib": ["ES2017", "DOM"],
     "module": "ESNext",
@@ -7,6 +12,7 @@
     "jsx": "react-jsx",
     "strict": true,
     "skipLibCheck": true,
+    "noImplicitAny": false,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
