@@ -1,73 +1,90 @@
-# React + TypeScript + Vite
+# 🌐 Portfolio - Bellagouit Hiba
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur mon portfolio personnel !  
+Ce site présente mon parcours, mes compétences, mes projets ainsi que mes formations et certifications.
 
-Currently, two official plugins are available:
+🔗 **Portfolio en ligne :**  
+https://mon-portfolio-12q7-7nec1gk6n-hibas-projects-e5b0489b.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 👩‍💻 À propos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Je suis **Bellagouit Hiba**, étudiante en **Master Sciences de Didactique et Ingénierie Éducative – Option Technologies Émergentes** à Marrakech.
 
-## Expanding the ESLint configuration
+Passionnée par :
+- Le développement web (React, JS)
+- L’ingénierie logicielle (Java, UML, Merise)
+- L’analyse et la conception de systèmes
+- Les méthodes agiles
+- Les technologies émergentes
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Technologies utilisées
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **React.js**
+- **JavaScript / TypeScript**
+- **CSS / HTML**
+- **Vite**
+- **React Router DOM**
+- **Vercel** (déploiement)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📁 Structure du projet
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📚 Parcours académique
+
+- 🎓 **Master** - Sciences de Didactique & Ingénierie Éducative (Technologies Émergentes)  
+- 🎓 **Licence Professionnelle** - Systèmes d’Information & Big Data – EST Salé  
+- 🎓 **DUT Génie Informatique** – ENS Marrakech  
+
+---
+
+## 🏆 Certifications
+
+- Certificat **Hibernate & JPA** – (MLIA Education) — 2025  
+- Certificat **Fondamentaux & Concepts Avancés de la Programmation Java** — 2025  
+
+---
+
+## 🛠️ Compétences
+
+- **Langages :** Java, JavaScript, Python  
+- **Web :** React, HTML, CSS  
+- **Conception :** UML, Merise  
+- **Méthodologies :** Agile  
+- **Outils :** Git, GitHub
+
+---
+
+## 📂 Projets
+
+### 🎵 Application Ujuke (Lecteur de musique)
+Développement d’une application de musique au sein d'une entreprise à Marrakech (Stage DUT – 2022/2023).
+
+### 🛒 Application Sklep (E-commerce)
+Conception & développement d’une plateforme de vente en ligne (Stage Licence – 2023/2024).
+
+---
+
+## 📬 Contact
+
+📍 Marrakech – Maroc  
+📧 **bellagouithiba@gmail.com**  
+🔗 **GitHub :** https://github.com/hibabellagouit  
+🔗 **LinkedIn :** https://www.linkedin.com/in/bellagouit-hiba-920113278/
+
+---
+
+## 📦 Installation & lancement du projet
+
+```bash
+npm install
+npm run dev
+🖥️ Déploiement
+
+Le site est automatiquement déployé via Vercel à chaque push GitHub.
