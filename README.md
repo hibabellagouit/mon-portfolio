@@ -4,8 +4,7 @@ Bienvenue sur mon portfolio personnel !
 Ce site présente mon parcours, mes compétences, mes projets ainsi que mes formations et certifications.
 
 🔗 **Portfolio en ligne :**  
-https://mon-portfolio-12q7-7nec1gk6n-hibas-projects-e5b0489b.vercel.app/
-
+https://mon-portfolio-vf.vercel.app/
 ---
 
 ## 👩‍💻 À propos
